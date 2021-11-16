@@ -47,7 +47,7 @@ server <- function(input, output) {
         mutate(Date = case_when(
           is.na(Date) ~ as.Date(dmy_hms(Timestamp)),
           TRUE ~ dmy(Date))
-        )}, ignoreNULL = FALSE)
+        )}, ignoreNULL = TRUE)
 
     output$casePlots <- renderPlot({
       admit_type_plot <- df() %>% 
