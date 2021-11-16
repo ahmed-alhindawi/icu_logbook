@@ -1,0 +1,119 @@
+---
+title: "ICU Logbook"
+author: "`r params$author`"
+date: "13/11/2021"
+output: pdf_document
+params:
+  dataframe: "NULL"
+  author: "NULL"
+  start_date: "NULL"
+  end_date: "NULL"
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, results="asis")
+library(patchwork)
+library(tidyverse)
+library(knitr)
+```
+
+```{r}
+admit_type_plot <- params$dataframe %>% 
+  filter(input_type == "Case") %>% 
+  distinct(Identifier, .keep_all = TRUE) %>% 
+  ggplot(aes(x=admit_type)) +
+  geom_histogram(stat="Count") +
+  labs(y="Count") +
+  ggtitle("Admission Type Distribution") +
+  theme_classic(base_size = 8) +
+  theme(axis.title = element_blank())
+
+age_plot <- params$dataframe %>% 
+  filter(input_type == "Case") %>% 
+  distinct(Identifier, .keep_all = TRUE) %>% 
+  ggplot(aes(x=Age)) +
+  geom_density() +
+  labs(y="Density") +
+  ggtitle("Patient Age (years) Distribution") +
+  theme_classic(base_size = 8) +
+  theme(axis.title = element_blank())
+
+gender_plot <- params$dataframe %>% 
+  filter(input_type == "Case") %>% 
+  distinct(Identifier, .keep_all = TRUE) %>% 
+  ggplot(aes(x=Gender)) +
+  geom_histogram(stat="count") +
+  labs(x="Sex", y="Count") +
+  ggtitle("Sex Distribution") +
+  theme_classic(base_size = 8) +
+  theme(axis.title = element_blank())
+
+speciality_type_plot <- params$dataframe %>% 
+  filter(input_type == "Case") %>% 
+  distinct(Identifier, .keep_all = TRUE) %>% 
+  ggplot(aes(x=`Referring speciality`)) +
+  geom_histogram(stat="count") +
+  labs(y="Count") +
+  ggtitle("Speciality Distribution") +
+  theme_classic(base_size = 8) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
+        axis.title = element_blank())
+
+(speciality_type_plot / (age_plot + gender_plot + admit_type_plot)) +
+  plot_annotation(
+    title = 'Case Mix',
+    caption = paste('From', format(params$start_date, "%d/%m/%Y"), 'to', format(params$end_date, "%d/%m/%Y"))
+  )
+```
+\newpage
+
+```{r}
+diagnosis_table <- params$dataframe %>% 
+  filter(input_type == "Case") %>% 
+  distinct(Identifier, .keep_all = TRUE) %>% 
+  group_by(Diagnosis) %>% 
+  summarise(Count = n()) %>% 
+  arrange(desc(Count))
+kable(diagnosis_table)
+```
+
+\newpage
+
+```{r}
+procedure_plot <- params$dataframe %>% 
+  filter(input_type == "Procedure") %>%
+  ggplot(aes(x=`Procedure`)) +
+  geom_histogram(stat="count") +
+  labs(y="Count") +
+  ggtitle("Procedure") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
+        axis.title = element_blank())
+
+supervision_plot <- params$dataframe %>% 
+  filter(input_type == "Procedure") %>% 
+  ggplot(aes(x=`Supervision`)) +
+  geom_histogram(stat="count") +
+  labs(y="Count") +
+  ggtitle("Supervision") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
+        axis.title = element_blank())
+
+(procedure_plot / supervision_plot) +
+  plot_annotation(
+    title = 'Procedures',
+    caption = paste('From', format(params$start_date, "%d/%m/%Y"), 'to', format(params$end_date, "%d/%m/%Y"))
+  )
+
+```
+
+\newpage
+```{r}
+transfer_table <- params$dataframe %>% 
+        filter(input_type == "Transfer") %>% 
+        group_by(transfer_type, Reason) %>% 
+        summarise(Count = n(), .groups="drop_last") %>% 
+        arrange(desc(Count)) %>% 
+        rename(`Transfer Type`= transfer_type)
+kable(transfer_table)
+```
