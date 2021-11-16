@@ -23,7 +23,15 @@ Once you're ready to see what your logbook looks like, follow these steps:
 -- It's usually called something like `ICU Logbook (Responses)`
 - Export that Google Sheet as a `comma separate values` sheet
 - Upload that file to the ShinyApp to see the distributions and (optionally) generate a report.
+- The URL for the app is ![https://ngageorange.shinyapps.io/icu_logbook/](https://ngageorange.shinyapps.io/icu_logbook/)
 - Note we do not store your data, it's all in a temporary folder that gets erased automatically.
 - Once you've uploaded your CSV, it should look like:
 
 ![logbook_screenshot](assets/logbook_screenshot.png)
+
+
+# Examples
+
+An example of the output of the Google Form -> Google Sheet is found at ![assets/logbook_example.csv](assets/logbook_example.csv).
+
+You can try uploading the example logbook to ![https://ngageorange.shinyapps.io/icu_logbook/](https://ngageorange.shinyapps.io/icu_logbook/) to see the functionality available.

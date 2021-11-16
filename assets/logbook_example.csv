@@ -1,0 +1,82 @@
+Timestamp,Date,input_type,Procedure,Supervision,Identifier,Gender,Age,admit_type,Diagnosis,Number of organ dysfunction,Referring speciality,Outcome,transfer_type,Reason,Comments,Title of Teaching,Secondary Diagnosis
+15/08/2021 20:31,09/08/2021,Procedure,Lung ultrasound,None,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15/08/2021 20:31,09/08/2021,Procedure,Echocardiogram,None,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15/08/2021 20:33,09/08/2021,Transfer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Intra-hospital,Cardiac cath lab,NA,NA,NA
+15/08/2021 20:33,09/08/2021,Procedure,Arterial Cannulation,None,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15/08/2021 20:34,10/08/2021,Procedure,Arterial Cannulation,None,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15/08/2021 20:35,12/08/2021,Procedure,Tracheostomy,Direct,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Cuff leak following initial insertion. Thus procedure performed again in entirety,NA,NA
+15/08/2021 20:38,10/08/2021,Transfer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Intra-hospital,CT head,NA,NA,NA
+15/08/2021 20:38,13/08/2021,Transfer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Intra-hospital,CT head,NA,NA,NA
+15/08/2021 20:39,12/08/2021,Teaching,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,M&M,NA
+01/09/2021 01:23,26/08/2021,Procedure,Arterial Cannulation,None,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+01/09/2021 01:23,01/09/2021,Procedure,Arterial Cannulation,None,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+24/09/2021 11:50,24/09/2021,Case,NA,NA,33,Female,22,Unplanned,Sepsis,3,General Medicine,Admit to ICU,NA,NA,NA,NA,NA
+24/09/2021 11:51,24/09/2021,Case,NA,NA,2,Male,68,Unplanned,Sepsis,2,General Surgery,Continue care,NA,NA,NA,NA,NA
+24/09/2021 11:52,24/09/2021,Case,NA,NA,67,Male,83,Unplanned,Seizure,1,General Medicine,Continue care,NA,NA,NA,NA,NA
+24/09/2021 11:53,24/09/2021,Case,NA,NA,39,Male,32,Unplanned,Lemier's Disease,2,General Medicine,Continue care,NA,NA,NA,NA,NA
+24/09/2021 11:53,24/09/2021,Case,NA,NA,68,Female,72,Unplanned,Cerebral Vasospasm,1,Neurosurgery,Admit to ICU,NA,NA,NA,NA,NA
+24/09/2021 11:54,24/09/2021,Case,NA,NA,11,Female,52,Unplanned,Septic Shock,3,General Surgery,Palliation,NA,NA,NA,NA,NA
+24/09/2021 11:54,24/09/2021,Case,NA,NA,40,Male,30,Unplanned,Trauma,4,Trauma & Orthopaedics,Admit to ICU,NA,NA,NA,NA,NA
+24/09/2021 11:55,24/09/2021,Case,NA,NA,42,Male,39,Unplanned,Subdural Haematoma,1,Neurosurgery,Admit to ICU,NA,NA,NA,NA,NA
+13/11/2021 00:32,31/10/2021,Procedure,Central Venous Acces - IJ,None,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13/11/2021 00:33,31/10/2021,Procedure,Central Venous Acces - IJ,None,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13/11/2021 00:33,31/10/2021,Procedure,Arterial Cannulation,None,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13/11/2021 00:33,31/10/2021,Procedure,Arterial Cannulation,None,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13/11/2021 00:34,08/11/2021,Procedure,Intubation,Distant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13/11/2021 00:35,08/11/2021,Procedure,Tracheostomy,None,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Percutaneous cut down tracheostomy,NA,NA
+13/11/2021 00:35,13/11/2021,Procedure,Lung ultrasound,None,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13/11/2021 00:36,02/11/2021,Procedure,Abdominal ultrasound,None,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hydronephrosis,NA,NA
+15/11/2021 00:45,15/11/2021,Case,NA,NA,48,Male,57,Unplanned,Pelvic Fracture,2,Trauma & Orthopaedics,Admit to ICU,NA,NA,NA,NA,NA
+15/11/2021 00:45,15/11/2021,Case,NA,NA,46,Male,74,Unplanned,Traumatic Brain Injury,1,Neurosurgery,Continue care,NA,NA,NA,NA,NA
+15/11/2021 00:46,15/11/2021,Transfer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Intra-hospital,Visit to Helipad for patient care,NA,NA,NA
+15/11/2021 00:47,15/11/2021,Case,NA,NA,2,Male,68,Unplanned,Bilateral Femoral Endarterectomy,4,General Surgery,Palliation,NA,NA,NA,NA,NA
+15/11/2021 00:47,15/11/2021,Case,NA,NA,56,Female,52,Unplanned,Traumatic Brain Injury,2,Neurosurgery,Palliation,NA,NA,NA,NA,NA
+15/11/2021 00:48,15/11/2021,Case,NA,NA,17,Male,35,Unplanned,Dermatomyositis with Interstitial Lung Disease,1,Respiratory,Palliation,NA,NA,MDA5 dermatomyositis with ILD; not for ECMO or Lung transplant - died as a result of ARDS,NA,NA
+15/11/2021 00:50,15/11/2021,Case,NA,NA,15,Male,69,Unplanned,ICANS secondary to CAR-T,2,Haematology,Continue care,NA,NA,NA,NA,NA
+15/11/2021 00:51,15/11/2021,Case,NA,NA,60,Male,19,Unplanned,Traumatic Brain Injury,1,Neurosurgery,Palliation,NA,NA,Declared death by neurological criteria but family refused diagnosis. Died of MOF,NA,NA
+15/11/2021 00:52,15/11/2021,Case,NA,NA,23,Female,45,Unplanned,Laparotomy,2,General Surgery,Continue care,NA,NA,NA,NA,NA
+15/11/2021 00:52,15/11/2021,Case,NA,NA,58,Male,70,Unplanned,RTA,1,Trauma & Orthopaedics,Continue care,NA,NA,NA,NA,NA
+15/11/2021 01:00,15/11/2021,Case,NA,NA,30,Female,48,Unplanned,Respiratory Failure,2,Renal,Admit to ICU,NA,NA,NA,NA,NA
+15/11/2021 01:01,15/11/2021,Case,NA,NA,28,Female,71,Unplanned,Cardiogenic Shock,2,General Medicine,Continue care,NA,NA,NA,NA,NA
+15/11/2021 01:02,15/11/2021,Case,NA,NA,45,Female,62,Unplanned,Traumatic Brain Injury1,1,Neurosurgery,Admit to ICU,NA,NA,Declared dead by brain stem criteria,NA,NA
+15/11/2021 01:02,15/11/2021,Procedure,Brainstem death testing,Direct,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Declared dead by neurological criteria,NA,NA
+15/11/2021 01:03,15/11/2021,Case,NA,NA,70,Female,20,Unplanned,COVID,1,Respiratory,Continue care,NA,NA,NA,NA,NA
+15/11/2021 01:04,15/11/2021,Case,NA,NA,25,Male,55,Unplanned,Traumatic Brain Injury,1,Neurosurgery,Continue care,NA,NA,NA,NA,NA
+15/11/2021 01:05,15/11/2021,Case,NA,NA,63,Male,66,Unplanned,Stroke,1,Neurology,Continue care,NA,NA,NA,NA,NA
+15/11/2021 01:05,15/11/2021,Case,NA,NA,69,Female,49,Unplanned,Sickle Cell Crisis,4,Haematology,Palliation,NA,NA,Fat embolus to brain on MRI,NA,NA
+15/11/2021 01:06,15/11/2021,Case,NA,NA,67,Male,83,Unplanned,Seizure,1,Neurology,Admit to ICU,NA,NA,NA,NA,NA
+15/11/2021 01:07,15/11/2021,Procedure,Lumbar Puncture,None,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15/11/2021 01:08,15/11/2021,Case,NA,NA,27,Male,58,Unplanned,Sepsis,4,General Surgery,Continue care,NA,NA,NA,NA,NA
+15/11/2021 01:09,15/11/2021,Case,NA,NA,39,Male,32,Unplanned,Lemier's disease,3,General Medicine,Admit to ICU,NA,NA,NA,NA,NA
+15/11/2021 01:10,15/11/2021,Case,NA,NA,11,Female,52,Unplanned,Sepsis,5,General Surgery,Palliation,NA,NA,NA,NA,NA
+15/11/2021 01:10,15/11/2021,Case,NA,NA,16,Male,47,Unplanned,Coronary Artery Bypass Graft,2,Cardiothoracics,Continue care,NA,NA,NA,NA,NA
+15/11/2021 01:35,15/11/2021,Case,NA,NA,43,Female,57,Unplanned,Cerebral Vasospasm,1,Neurosurgery,Continue care,NA,NA,NA,NA,NA
+15/11/2021 01:36,15/11/2021,Case,NA,NA,33,Female,22,Unplanned,Sepsis,2,General Medicine,Continue care,NA,NA,NA,NA,NA
+15/11/2021 01:37,15/11/2021,Case,NA,NA,68,Female,72,Unplanned,Cerebral Vasopasm,2,Neurosurgery,Admit to ICU,NA,NA,NA,NA,NA
+15/11/2021 01:39,15/11/2021,Case,NA,NA,32,Female,75,Unplanned,VT Storm,2,General Medicine,Continue care,NA,NA,NA,NA,NA
+15/11/2021 01:40,15/11/2021,Case,NA,NA,44,Male,77,Unplanned,Traumatic Brain Injury,2,Neurosurgery,Admit to ICU,NA,NA,NA,NA,NA
+15/11/2021 01:44,15/11/2021,Case,NA,NA,41,Male,38,Unplanned,Asthma,1,Respiratory,Continue care,NA,NA,NA,NA,NA
+15/11/2021 02:07,15/11/2021,Case,NA,NA,12,Female,73,Unplanned,Opiod Toxicity,1,General Medicine,Continue care,NA,NA,NA,NA,NA
+15/11/2021 02:08,15/11/2021,Case,NA,NA,21,Female,83,Unplanned,Limb Ischaemia,1,General Surgery,Continue care,NA,NA,NA,NA,NA
+15/11/2021 02:08,15/11/2021,Case,NA,NA,71,Female,65,Unplanned,Airway Oedema,1,General Surgery,Continue care,NA,NA,NA,NA,NA
+15/11/2021 02:09,15/11/2021,Case,NA,NA,36,Female,28,Unplanned,Sepsis,3,General Medicine,Continue care,NA,NA,NA,NA,NA
+15/11/2021 02:11,15/11/2021,Case,NA,NA,64,Male,73,Unplanned,Respiratory Failure,2,General Medicine,Admit to ICU,NA,NA,NA,NA,NA
+15/11/2021 02:12,14/11/2021,Case,NA,NA,26,Male,47,Unplanned,Sepsis,2,General Medicine,Admit to ICU,NA,NA,TB Osteomyelitis,NA,NA
+15/11/2021 02:14,14/11/2021,Procedure,Arterial Cannulation,None,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15/11/2021 02:14,14/11/2021,Case,NA,NA,37,Male,19,Unplanned,Seizure,1,Neurology,Continue care,NA,NA,NA,NA,Epilepsy
+15/11/2021 02:21,27/10/2021,Teaching,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Journal Club,NA
+15/11/2021 02:22,26/10/2021,Teaching,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,M&M,NA
+15/11/2021 02:25,10/11/2021,Teaching,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Regional Training Day,NA
+15/11/2021 02:51,14/11/2021,Transfer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Inter-hospital,CT Venogram,NA,NA,NA
+16/11/2021 02:15,16/11/2021,Case,NA,NA,59,Female,59,Unplanned,Traumatic Brain Injury,1,Neurosurgery,Continue care,NA,NA,NA,NA,NA
+16/11/2021 02:16,16/11/2021,Case,NA,NA,56,Female,52,Unplanned,Traumatic Brain Injury,1,Neurosurgery,Admit to ICU,NA,NA,NA,NA,NA
+16/11/2021 02:20,16/11/2021,Case,NA,NA,7,Female,45,Unplanned,Sepsis,NA,Renal,Admit to ICU,NA,NA,NA,NA,Line Sepsis
+16/11/2021 02:21,16/11/2021,Case,NA,NA,55,Male,45,Unplanned,Tracheal Injury,1,Trauma & Orthopaedics,Admit to ICU,NA,NA,NA,NA,Trauma
+16/11/2021 02:22,16/11/2021,Case,NA,NA,49,Male,47,Unplanned,Traumatic Brain Injury,2,Trauma & Orthopaedics,Admit to ICU,NA,NA,NA,NA,Fractured Humerus
+16/11/2021 02:24,16/11/2021,Case,NA,NA,3,Male,65,Unplanned,Respiratory Failure,NA,General Medicine,Admit to ICU,NA,NA,NA,NA,COPD
+16/11/2021 02:26,03/11/2021,Case,NA,NA,62,Male,77,Unplanned,Obstructive Uropathy,1,General Surgery,Admit to ICU,NA,NA,NA,NA,NA
+16/11/2021 02:27,03/11/2021,Procedure,Abdominal ultrasound,None,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Bilateral hydronephrosis,NA,NA
+16/11/2021 02:27,03/11/2021,Case,NA,NA,20,Male,85,Unplanned,Acute Coronary Syndrome,1,General Medicine,Admit to ICU,NA,NA,NA,NA,NA
+16/11/2021 02:29,0021-11-03,Case,NA,NA,4,Male,77,Unplanned,Respiratory Failure,3,Haematology,Palliation,NA,NA,NA,NA,Myeloma
+16/11/2021 02:30,03/11/2021,Case,NA,NA,1,Female,60,Unplanned,Delirium,1,General Medicine,Continue care,NA,NA,NA,NA,Paraneoplastic Syndrome
+16/11/2021 02:31,03/11/2021,Case,NA,NA,19,Male,31,Unplanned,Seizures,1,Neurology,Continue care,NA,NA,NA,NA,Alcohol Withdrawal
